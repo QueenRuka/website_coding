@@ -1,0 +1,135 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+nav a:link{
+  color:#999;
+  text-decoration: none;
+}
+
+nav li a:visited{
+  color: #999;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: #000;
+}
+
+nav ul li .active{
+  color: #000;
+}
+
+.logo{
+  width: 80px;
+  height:80px;
+}
+
+.me{
+  width:200px;
+  height:200px;
+}
+
+.me-description{
+  margin-top: 20px;
+  width:280px;
+}
+
+.about-me{
+  max-width:960px;
+  margin:100px auto;
+  text-align: center;
+}
+
+nav{
+  max-width: 960px;
+  margin: 50px auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  list-style: none;
+  float:right;
+}
+
+nav ul li{
+  font-size: 1.1rem;
+  display:inline-flex;
+  margin: 20px 20px;
+}
+
+.intro{
+  max-width: 960px;
+  margin: 70px auto;
+}
+.flex-container{
+  height: 100%;
+  overflow: hidden;
+  max-width:960px;
+  margin:auto;
+}
+
+.flex-container img {
+  width:960px;
+}
+
+h1 {
+  font-size:30px;
+  margin:40px 10px;
+  font-weight:400;
+}
+
+h2 {
+  font-size:26px;
+  margin:20px 10px;
+  font-weight:400;
+}
+
+p {
+  font-size:17px;
+  line-height: 30px;
+  font-weight:300;
+}
+
+.smile{
+  width:30px;
+  position: relative;
+  top: 2px;
+  left:4px;
+}
+
+.links p{
+  margin-top:30px;
+  margin-bottom: 200px;
+}
+
+.links a{
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #304445;
+}
+
+.links a:visited{
+  color: #000;
+}
+
+.links a:hover{
+  color: #FF8282;
+  border-bottom: 1px solid #FF8282;
+}
+
+.links a:active{
+  color: #000;
+  border-bottom: 1px solid #304445;
+}
+
+footer p{
+    font-size:18px;
+    color: #CCC;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
